@@ -5,7 +5,7 @@ import './Navbar.css';
 function Navbar() {
     return (
         <nav className="navbar">
-            <div className="navbar-logo">Brickle Tile</div>
+            <div className="navbar-logo">BT</div>
             <div className="navbar-links">
                 <Link to="/hero-section" >Home</Link>
                 <Link to="/about-us">About Us</Link>
