@@ -1,0 +1,37 @@
+.about-us-section {
+    background: url('/src/images/aboutUsImage.webp') no-repeat center center; 
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.about-us-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: -1;
+}
+
+.about-us-content {
+    z-index: 2;
+    
+    
+}
+
+.about-us-content h1 {
+    margin-bottom: 0.5em;
+  }
+
+.about-us-content p {
+   max-width: 600px;
+   z-index: 2;
+}
