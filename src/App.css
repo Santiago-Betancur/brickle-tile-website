@@ -9,6 +9,7 @@ html, body {
 
  h1 {
   font-weight: 400;
+  color: white;
  }
 
  p {
@@ -16,6 +17,7 @@ html, body {
   line-height: 1.6;
   letter-spacing: 1px;
   font-size: 18px;
+  color: white;
  }
 @media (prefers-reduced-motion: no-preference) {
 

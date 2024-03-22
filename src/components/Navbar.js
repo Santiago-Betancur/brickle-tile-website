@@ -4,7 +4,9 @@ import './Navbar.css';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-   
+    const closeMenu = () => {
+        setIsOpen(false);
+    };
     return (
         <nav className="navbar">
             <div className="navbar-logo">BT</div>
@@ -13,9 +15,9 @@ function Navbar() {
             </div>
         {isOpen && (
             <div className='navbar-links'>
-              <Link to="/hero-section" >Home</Link>
-              <Link to="/about-us">About Us</Link>
-              <Link to="/services">Services</Link>
+              <Link to="/hero-section" onClick={closeMenu}>Home</Link>
+              <Link to="/about-us" onClick={closeMenu}>About Us</Link>
+              <Link to="/services" onClick={closeMenu}>Services</Link>
             </div>
         )}
         </nav>
