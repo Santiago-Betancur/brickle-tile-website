@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AboutUs from './components/AboutUs';
 import Services from './components/Services';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           {/* Add more routes here */}
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }

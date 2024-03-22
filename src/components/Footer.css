@@ -1,0 +1,18 @@
+.hero-icons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 4;
+}
+
+.hero-icons a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.hero-icons a:hover {
+    color: #007bff;
+}

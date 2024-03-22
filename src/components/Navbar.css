@@ -22,33 +22,36 @@
   font-size: 2rem; /* Increase size on hover */
 }
 
-  .navbar-logo {
-    font-family: "Ojuju";
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
+.navbar-logo {
+  font-family: "Ojuju";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
  
-  .navbar-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    position:absolute;
-    top:100%;
-    left: 0;
-    background:rgba(0, 0, 0, 0.5);;
-  }
-  .navbar-links a {
-    display: block;
-    margin-left: 20px;
-    color: #fff;
-    text-decoration: none;
+.navbar-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position:absolute;
+  top:100%;
+  left: 0;
+  background:rgba(0, 0, 0, 0.5);;
+}
+  
+.navbar-links a {
+  display: block;
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
     transition: color 0.3s ease;
     padding: 20px;
   }
+  
   .navbar-links.show {
     display: flex; /* Show the links */
   }
+  
   .navbar-links a:hover {
     color: #007bff;
   }
