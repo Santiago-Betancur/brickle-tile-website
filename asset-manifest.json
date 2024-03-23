@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/brickle-tile-website/static/css/main.3a0dd949.css",
-    "main.js": "/brickle-tile-website/static/js/main.1e9b5e40.js",
+    "main.js": "/brickle-tile-website/static/js/main.7e41180b.js",
     "static/js/453.cb46ddfc.chunk.js": "/brickle-tile-website/static/js/453.cb46ddfc.chunk.js",
     "static/media/aboutUsImage.webp": "/brickle-tile-website/static/media/aboutUsImage.bbb7d72c427f95556f8b.webp",
     "static/media/HeroImage.webp": "/brickle-tile-website/static/media/HeroImage.6f2e39db5d75b6236e3d.webp",
     "index.html": "/brickle-tile-website/index.html",
     "main.3a0dd949.css.map": "/brickle-tile-website/static/css/main.3a0dd949.css.map",
-    "main.1e9b5e40.js.map": "/brickle-tile-website/static/js/main.1e9b5e40.js.map",
+    "main.7e41180b.js.map": "/brickle-tile-website/static/js/main.7e41180b.js.map",
     "453.cb46ddfc.chunk.js.map": "/brickle-tile-website/static/js/453.cb46ddfc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a0dd949.css",
-    "static/js/main.1e9b5e40.js"
+    "static/js/main.7e41180b.js"
   ]
 }
