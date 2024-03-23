@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AboutUs from './components/AboutUs';
@@ -10,17 +10,16 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Navbar />
-      <div className="App">
-        <Routes>
-          <Route path="/hero-section" element={<HeroSection />} exact />
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/services" element={<Services />} />
-          {/* Add more routes here */}
-        </Routes>
-      </div>
-      <Footer />
-    </Router>
+    <Navbar />
+    <div className="App">
+      <Routes>
+        <Route path="/hero-section" element={<HeroSection />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
+      </Routes>
+    </div>
+    <Footer />
+  </Router>
   );
 }
 
