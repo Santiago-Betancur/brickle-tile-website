@@ -13,7 +13,8 @@ function App() {
     <Navbar />
     <div className="App">
       <Routes>
-        <Route path="/hero-section" element={<HeroSection />} />
+        <Route path="/" element={<HeroSection />} />
+        <Route path="/hero-section" element={<HeroSection />} /> {/* Additional Route for HeroSection */}
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
       </Routes>
