@@ -9,7 +9,7 @@ function Navbar() {
     };
     return (
         <nav className="navbar">
-            <div className="navbar-logo">BT</div>
+            <div className="navbar-logo">BrickleTile</div>
             <div className="hamburger" aria-label="Toggle navigation" onClick={() => setIsOpen(prevState => !prevState)}>
                 <i className={isOpen ? "fas fa-times" : "fas fa-bars"}></i>
             </div>

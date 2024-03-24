@@ -5,9 +5,7 @@
     z-index: 1;
     min-height: 100vh;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-   
 }
 
 .about-us-section::before{
@@ -17,18 +15,16 @@
     right:0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.8);
     z-index: -1;
 }
 
 .about-us-content {
     z-index: 2;
-    background-color: rgba(255, 255, 255, 0.1);
     padding: 100px;
     border-radius: 8px;
     max-width: 80%;
-    margin: auto;
-    
+   
 }
 
 .about-us-content h1 {
@@ -40,4 +36,19 @@
    max-width: 600px;
    
    z-index: 2;
+}
+@media (max-width: 768px) {
+    .about-us-section {
+        justify-content: center;
+    }
+    
+    .about-us-content p {
+        max-width: 95%;
+        z-index: 2;
+        font-size: 16px;
+    }
+    .about-us-content {
+        padding: 10px;
+      
+    }
 }

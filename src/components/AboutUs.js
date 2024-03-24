@@ -1,8 +1,13 @@
 import React from 'react';
-import './AboutUs.css'
+import './AboutUs.css';
+import familyImage from './images/aboutUsMock.webp'; // Correct path to your image
+
 function AboutUs() {
   return (
     <div className='about-us-section'>
+      <div className='about-us-image-container'>
+        <img src={familyImage} alt="Brickle Tile Family" className='about-us-image'/>
+      </div>
       <div className='about-us-content'>
         <h1>About Us</h1>
         <p>   At Brickle Tile, quality flooring is our art form. 
