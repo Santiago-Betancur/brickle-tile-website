@@ -7,8 +7,9 @@ function HeroSection() {
             <h1>Brickle Tile</h1>
             <p>Your trusted partner for high-quality tile installations.</p>
             <button>Get a Free Quote</button>
-    
+        
         </div>
+        
     );
 }
 

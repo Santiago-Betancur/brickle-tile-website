@@ -4,14 +4,18 @@
     align-items: center;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
     padding: 20px 10%;
+    margin: 0 auto;
     background: transparent;
     color: #fff;
     z-index: 3; /* Ensure navbar is above hero image and text */
     box-sizing: border-box;
+    max-width: 1300px;
 }
+
 .hamburger {
   cursor: pointer;
   font-size: 1.2rem;
