@@ -5,16 +5,15 @@
 .about-us-section {
     background: url('/src/images/aboutUsImage.webp') no-repeat center center; 
     background-size: cover;
-    position: relative;
     z-index: 1;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     overflow-y: auto;
-    padding-top: var(--navbar-height); 
-    padding-bottom: var(--footer-height);
-    height: 100vh;
+   
+    height: 100%;
+    border: red solid 5px;
 }
 
 .about-us-section::before{

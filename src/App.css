@@ -1,29 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
-html, body {
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  font-size: 16px; /* Set a base font size */
   overflow-x: hidden; /* Prevent horizontal scroll */
   font-family: "Roboto Flex", sans-serif;
 }
 .App {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; 
+  height: 100vh; 
+  
  }
  h1 {
-  font-weight: 400;
+  font-size: 2.5em; /* 40px */
+ 
   color: white;
  }
+ h2 {
+  font-size: 2em; /* 32px */
+ 
+}
+h3 {
+  font-size: 1.75em; /* 28px */
+ 
+}
+h4 {
+  font-size: 1.5em; /* 24px */
+  
+}
+
+h5 {
+  font-size: 1.25em; /* 20px */
+}
+
+h6 {
+  font-size: 1em; /* 16px */;
+}
 
  p {
   font-weight: 200;
   line-height: 1.6;
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 1em; /* 16px */;
   color: white;
+  margin: 0.75em 0;
  }
+ a {
+  font-size: 1em; /* Matches the paragraph */
+}
 
 @media (prefers-reduced-motion: no-preference) {
-
+  h1 {
+    font-size: 2em; /* Slightly smaller on mobile */
+  }
 }
