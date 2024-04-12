@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/brickle-tile-website/static/css/main.7a368d65.css",
-    "main.js": "/brickle-tile-website/static/js/main.77d67c65.js",
+    "main.css": "/brickle-tile-website/static/css/main.b5b81e86.css",
+    "main.js": "/brickle-tile-website/static/js/main.f3237f90.js",
     "static/js/453.cb46ddfc.chunk.js": "/brickle-tile-website/static/js/453.cb46ddfc.chunk.js",
+    "static/media/aboutUsMock.webp": "/brickle-tile-website/static/media/aboutUsMock.5e31b240c41594af2433.webp",
     "static/media/aboutUsImage.webp": "/brickle-tile-website/static/media/aboutUsImage.bbb7d72c427f95556f8b.webp",
     "static/media/HeroImage.webp": "/brickle-tile-website/static/media/HeroImage.6f2e39db5d75b6236e3d.webp",
     "index.html": "/brickle-tile-website/index.html",
-    "main.7a368d65.css.map": "/brickle-tile-website/static/css/main.7a368d65.css.map",
-    "main.77d67c65.js.map": "/brickle-tile-website/static/js/main.77d67c65.js.map",
+    "main.b5b81e86.css.map": "/brickle-tile-website/static/css/main.b5b81e86.css.map",
+    "main.f3237f90.js.map": "/brickle-tile-website/static/js/main.f3237f90.js.map",
     "453.cb46ddfc.chunk.js.map": "/brickle-tile-website/static/js/453.cb46ddfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a368d65.css",
-    "static/js/main.77d67c65.js"
+    "static/css/main.b5b81e86.css",
+    "static/js/main.f3237f90.js"
   ]
 }
