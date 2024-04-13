@@ -22,8 +22,8 @@
 
 .hero-section-container{
     width: 100%;
-    max-width: 900px;
-    padding: 0 20px;
+    width: 1000px;
+    padding-left: 5%;
 }
 .hero-section p {
      margin: 15px 0;
@@ -49,24 +49,17 @@
 
 
 @media (max-width: 768px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    .hero-section{
-        justify-content: center;
+  
+    .hero-section-container{
+        width: 100%;
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        padding: 25px 0px;
-        min-height: 100vh;
-        overflow-y: hidden;
+        padding-left: 0;
     }
- 
-    .hero-section p {
-        margin-bottom: 25px;
-    }
-    .hero-section button {
-        padding: 10px 20px; /* Adjust button padding */
-        font-size: 0.9rem; /* Smaller font size for the button */
-      }
+}
+
+@media (max-width: 480px) {
+    
 }

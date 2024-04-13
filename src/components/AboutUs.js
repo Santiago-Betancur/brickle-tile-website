@@ -1,34 +1,31 @@
-import React from 'react';
-import './AboutUs.css';
-import familyImage from '../images/aboutUsMock.webp'; 
+import React from "react";
+import "./AboutUs.css";
+import familyImage from "../images/aboutUsMock.webp";
 
 function AboutUs() {
   return (
-    <div className='about-us-section'>
-      <div className='about-us-container'>
-       <div className='about-us-image-container'>
-        <img src={familyImage} alt="Brickle Tile Family" className='about-us-image'/>
-      </div> 
-      <div className='about-us-content'>
-        <h1>About Us</h1>
-        <p>At Brickle Tile, quality flooring is our art form. 
-          Under the meticulous care of father-and-son duo Eric & 
-          Adam Brickle, we specialize in bringing unparalleled 
-          craftsmanship to both commercial and residential spaces. 
-          Our expertise spans across Vinyl, Ceramic, Porcelain, 
-          Hardwood, and Floating Floors, with each installation 
-          reflecting our passion for detail and design. 
-          Our approach is rooted in simplicity, yielding elegance 
-          in every project from the timeless finish of polished 
-          ceramics to the contemporary flair of dark grey subway tiles.
-          The spaces we enhance are designed to be lived in, loved,
-          and cherished.
-          We invite you to explore the possibilities with Brickle Tile,
-          where every floor we lay is the foundation for life's beautiful moments. 
-          Brickle Tile Simplicity. Elegance. Home.
-        </p>
+    <div className="about-us-section">
+      <div className="about-us-container">
+        <div className="about-us-image-container">
+          <img
+            src={familyImage}
+            alt="Brickle Tile Family"
+            className="about-us-image"
+          />
+        </div>
+        <div className="about-us-content">
+          <h1>About Us</h1>
+          <h3>Explore Elegant Flooring with Brickle Tile</h3>
+          <p>
+            Led by the father-son team of Eric and Adam Brickle, we craft
+            exquisite floors that combine durability and style. Specializing in
+            Vinyl, Hardwood, Ceramic, and Porcelain, we ensure every project
+            from classic to contemporary is executed with precision and
+            elegance. At Brickle Tile, we create spaces meant to be lived in and
+            loved.<br /> <br /><span>Brickle Tile: Simplicity. Elegance. Home.</span>
+          </p>
+        </div>
       </div>
-    </div>
     </div>
   );
 }
