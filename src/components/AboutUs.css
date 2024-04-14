@@ -2,7 +2,6 @@
     background: url('/src/images/aboutUsImage.webp') no-repeat center center; 
     background-size: cover;
     display: flex;
-    flex-direction: row; /* Side by side layout */
     align-items: center; /* Vertically align items in the middle */
     justify-content: center; /* Center items horizontally */
     overflow-y: auto;
@@ -29,10 +28,11 @@
     align-items: center;
     width: 100%; /* Take the full width of the section */
     max-width: 1300px;
-    padding: 20px;
     z-index: 2;
 }
-
+.about-us-container h3{
+    color: white;
+ }
 .about-us-image-container {
     flex: 1; /* Take half of the container space */
     display: flex;
@@ -40,11 +40,12 @@
     justify-content: center;
     padding: 20px;
  }
+
  .about-us-image {
     width: auto;
     max-width: 100%;
     max-height: 60%; /* Maintain aspect ratio */
-    height: 450px;
+    height: 350px;
     object-fit: cover;
     border-radius: 8px;
 }

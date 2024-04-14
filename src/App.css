@@ -14,119 +14,81 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100vh; 
-  
- }
- h1 {
-  font-size: 2.5em; /* 40px */
- 
+}
+h1 {
+  font-size: 2.625rem; /* slightly increased from 2.5em (40px) */
   color: white;
- }
- h2 {
-  font-size: 2em; /* 32px */
- 
+}
+h2 {
+  font-size: 2.1rem; /* slightly increased from 2em (32px) */
 }
 h3 {
-  font-size: 1.75em; /* 28px */
- 
+  font-size: 1.85rem; /* slightly increased from 1.75em (28px) */
 }
 h4 {
-  font-size: 1.5em; /* 24px */
-  
+  font-size: 1.575rem; /* slightly increased from 1.5em (24px) */
 }
-
 h5 {
-  font-size: 1.25em; /* 20px */
+  font-size: 1.3125rem; /* slightly increased from 1.25em (20px) */
 }
-
 h6 {
-  font-size: 1em; /* 16px */;
+  font-size: 1.05rem; /* slightly increased from 1em (16px) */
 }
-
- p {
+p {
+  font-size: 1.10rem; /* slightly increased from 1em (16px), matched paragraph size */
   font-weight: 200;
   line-height: 1.6;
   letter-spacing: 1px;
-  font-size: 1em; /* 16px */;
   color: white;
   margin: 0.75em 0;
- }
- a {
-  font-size: 1em; /* Matches the paragraph */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  h1 {
-    font-size: 2em; /* Slightly smaller on mobile */
-  }
-}
-
-/* Responsive adjustments for screens narrower than 768px (common breakpoint for tablets and mobile phones) */
+/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-  html, body {
-    font-size: 14px; /* Slightly smaller base font size for mobile */
-  }
-
   h1 {
-    font-size: 2em; /* Reduced from 2.5em, approx 28px */
+    font-size: 2.1rem; /* smaller screens */
   }
-
   h2 {
-    font-size: 1.75em; /* Reduced from 2em, approx 24.5px */
+    font-size: 1.85rem;
   }
-
   h3 {
-    font-size: 1.5em; /* Reduced from 1.75em, approx 21px */
+    font-size: 1.575rem;
   }
-
   h4 {
-    font-size: 1.25em; /* Reduced from 1.5em, approx 17.5px */
+    font-size: 1.3125rem;
   }
-
   h5 {
-    font-size: 1.1em; /* Reduced from 1.25em, approx 15.4px */
+    font-size: 1.15rem;
   }
-
   h6 {
-    font-size: 0.9em; /* Reduced from 1em, approx 12.6px */
+    font-size: 0.95rem;
   }
-
   p, a {
-    font-size: 0.875em; /* Slightly reduced for paragraphs and links, approx 12.25px */
+    font-size: 0.925rem; /* reduced slightly for smaller screens */
   }
 }
 
-/* Even smaller devices (phones in portrait mode) */
+/* Adjustments for very small devices */
 @media (max-width: 480px) {
-  html, body {
-    font-size: 12px; /* Further reduced base font size for small phones */
-  }
-
   h1 {
-    font-size: 1.75em; /* Approx 21px on small phones */
+    font-size: 1.85rem;
   }
-
   h2 {
-    font-size: 1.5em; /* Approx 18px */
+    font-size: 1.575rem;
   }
-
   h3 {
-    font-size: 1.25em; /* Approx 15px */
+    font-size: 1.3125rem;
   }
-
   h4 {
-    font-size: 1.1em; /* Approx 13.2px */
+    font-size: 1.15rem;
   }
-
   h5 {
-    font-size: 1em; /* Approx 12px */
+    font-size: 1.05rem;
   }
-
   h6 {
-    font-size: 0.875em; /* Approx 10.5px */
+    font-size: 0.925rem;
   }
-
   p, a {
-    font-size: 0.85em; /* Approx 10.2px, ensuring legibility */
+    font-size: 0.9rem; /* smallest screens */
   }
 }
-

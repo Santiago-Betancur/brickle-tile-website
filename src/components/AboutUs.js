@@ -15,7 +15,7 @@ function AboutUs() {
         </div>
         <div className="about-us-content">
           <h1>About Us</h1>
-          <h3>Explore Elegant Flooring with Brickle Tile</h3>
+          <h3>Explore Elegant Flooring with Brickle Tile.</h3>
           <p>
             Led by the father-son team of Eric and Adam Brickle, we craft
             exquisite floors that combine durability and style. Specializing in
