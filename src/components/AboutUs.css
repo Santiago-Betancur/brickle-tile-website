@@ -5,9 +5,9 @@
     align-items: center; /* Vertically align items in the middle */
     justify-content: center; /* Center items horizontally */
     overflow-y: auto;
-    height: 100vh;
     position: relative;
     z-index: 1;
+    height: 100%;
 }
 
 .about-us-section::before {
@@ -24,21 +24,24 @@
 .about-us-container {
     display: flex;
     flex-direction: row; /* Side by side for large screens */
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%; /* Take the full width of the section */
-    max-width: 1300px;
+    max-width: 1200px;
     z-index: 2;
+    height: 100%;
 }
 .about-us-container h3{
     color: white;
+    padding-top: 15px;
+  
  }
 .about-us-image-container {
     flex: 1; /* Take half of the container space */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+   
  }
 
  .about-us-image {
@@ -56,20 +59,44 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    overflow: auto;
 }
 
 
-@media (max-width: 768px) {
-    .about-us-section, .about-us-container {
-        flex-direction: column; /* Stack vertically on small screens */
+@media (max-width: 675px) {
+    .about-us-container {
+        flex-direction: column;
+        justify-content: flex-start; /* Align content from the top */
+        align-items: flex-start;
+        padding: 25px; /* Adjust padding as needed */
+        height: 90%;
     }
-
+    .about-us-image-container{
+        height: 25%;
+    }
     .about-us-image-container, .about-us-content {
-        width: 100%; /* Full width for a stacked layout */
-        padding: 10px;
+        width: 100%; /* Full width for both containers */
     }
 
     .about-us-image {
-        max-height: 250px; /* Adjust height appropriately for mobile */
+        height: auto; /* Adjust height based on width */
+        max-height: 30vh; /* Limit image height to not take over the screen */
+    }
+
+    .about-us-content {
+        padding: 10px; /* Provides internal spacing */
+        height: 75%;
+    }
+    
+}
+
+@media (max-width: 675px)  {
+    .about-us-container {
+        padding: 0;
+        height: 100vh;
+    }
+    .about-us-image-container{
+        flex: 1;
+   
     }
 }

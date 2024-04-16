@@ -64,7 +64,7 @@ p {
     font-size: 0.95rem;
   }
   p, a {
-    font-size: 0.925rem; /* reduced slightly for smaller screens */
+    font-size: 0.9rem; /* reduced slightly for smaller screens */
   }
 }
 
@@ -89,6 +89,6 @@ p {
     font-size: 0.925rem;
   }
   p, a {
-    font-size: 0.9rem; /* smallest screens */
+    font-size: 0.89rem; /* smallest screens */
   }
 }
