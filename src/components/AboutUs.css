@@ -70,6 +70,8 @@
         align-items: flex-start;
         padding: 25px; /* Adjust padding as needed */
         height: 90%;
+        min-height: 300px;
+        position: relative;
     }
     .about-us-image-container{
         height: 25%;

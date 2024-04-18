@@ -3,13 +3,16 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 20px;
     background: transparent;
+    padding-bottom: 20px;
     color: #fff;
     z-index: 3;
     box-sizing: border-box;
-    position: absolute;
+    position:absolute;
+    left: 0;
+    right: 0;
     bottom: 0;
+  ; 
 }
  .hero-icons {
     width: 100%;
@@ -23,4 +26,23 @@ footer {
 }
 .hero-icons a:hover {
     color: #007bff;
+}
+@media (max-width: 675px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        padding-bottom: 20px; /* Default padding-bottom */
+        padding-bottom: env(safe-area-inset-bottom, 50px); /* Override with safe-area-inset if available */
+        background: transparent;
+        color: #fff;
+        z-index: 3;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
 }

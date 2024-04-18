@@ -13,14 +13,16 @@ html, body {
 .App {
   display: flex;
   flex-direction: column;
-  height: 100vh; 
+height: 100vh; /* Minimum height of 100% of the viewport height */
+padding-bottom: env(safe-area-inset-bottom);
 }
+
 h1 {
   font-size: 2.625rem; /* slightly increased from 2.5em (40px) */
   color: white;
 }
 h2 {
-  font-size: 2.1rem; /* slightly increased from 2em (32px) */
+  font-size: 2rem; /* slightly increased from 2em (32px) */
 }
 h3 {
   font-size: 1.85rem; /* slightly increased from 1.75em (28px) */
